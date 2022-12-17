@@ -39,7 +39,7 @@ elif year % 400== 0:
 if leap == True:
       print(calendar.calendar(year))
       print(" ")
-      print ("This is a Leap(අධික අවුරැද්දකි,) year")
+      print ("This is a Leap year")
       day, month, year = date.split(' ')
       day_name = datetime.date(int(year), int(month), int(day))
       Day=(day_name.strftime("%A"))
